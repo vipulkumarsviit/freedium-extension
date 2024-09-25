@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Read on Freedium",
+    "version": "1.0",
+    "description": "Open Medium.com articles on Freedium.",
+    "permissions": [
+        "contextMenus",
+        "tabs"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "16": "./icons/icon16.png",
+        "48": "./icons/icon48.png",
+        "128": "./icons/icon128.png"
+    }
+}
